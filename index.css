@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #D9D9D9;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #434343
+    
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+}
+.login2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    height: 400px;
+}
+.login2 h1{
+    font-size: 24px;
+    text-align: center;
+}
+.login2 p{
+    font-size: 16px;
+}
+.login2 a{
+    color: black;
+}
+
+.nome input{
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+.aniversario input{
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+.cor-favorita input{
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+.comeco input{
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+
+.concluir input{
+    width: 100px;
+    height: 40px;
+    background-color: #858585;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+
+.concluir :hover{
+    opacity: 1;
+    cursor: pointer;
+}
