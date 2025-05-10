@@ -17,6 +17,6 @@
         window.location.href='lembrancas.html';
     }
     else{
-        alert("errou");
+        window.location.href='lembrancas.html';
     }
     }
